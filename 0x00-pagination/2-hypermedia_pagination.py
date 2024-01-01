@@ -49,7 +49,7 @@ class Server:
             'page_size': len(page_data),
             'page': page,
             'data': page_data,
-            'next_page': page + 1 if end_index < len(self._cached_dataset) else None,
+            'next_page': (page + 1 if end < len(self.__dataset) else None),
             'prev_page': page - 1 if start_index > 0 else None,
             'total_pages': total_pages,
         }
