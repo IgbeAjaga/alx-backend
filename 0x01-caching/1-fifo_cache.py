@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
-""" 0-basic_cache """
+""" 1-fifo_cache """
 from base_caching import BaseCaching
 
 
-class BasicCache(BaseCaching):
-    """ BasicCache class """
+class FIFOCache(BaseCaching):
+    """ FIFOCache class """
+
+    def __init__(self):
+        super().__init__()
 
     def put(self, key, item):
         """ Put method """
         if key is not None and item is not None:
+            if len(self.cache_data) >= self.MAX_ITEMS:
+                removed = list(self.cache_data.keys())[0]
+                del self.cache_data[removed]
+                print(f"DISCARD: {removed}")
             self.cache_data[key] = item
 
     def get(self, key):
