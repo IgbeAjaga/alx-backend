@@ -1,15 +1,29 @@
 # French translations for PROJECT.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <ajagaigbe144@gmail.com>, 2024.
 #
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Welcome to Holberton"
+msgstr "Bienvenue chez Holberton"
+
+msgid "Hello world!"
+msgstr "Bonjour monde!"
+
+msgid "You are logged in as %(username)s."
+msgstr "Vous êtes connecté en tant que %(username)s."
+
+msgid "You are not logged in."
+msgstr "Vous n'êtes pas connecté."
+
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Report-Msgid-Bugs-To: ajagaigbe144@gmail.com\n"
 "POT-Creation-Date: 2024-01-09 23:01+0000\n"
 "PO-Revision-Date: 2024-01-09 23:01+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: igbeajaga <ajagaigbe144@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
