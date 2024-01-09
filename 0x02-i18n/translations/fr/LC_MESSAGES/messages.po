@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Welcome to Holberton"
+msgstr "Bienvenue chez Holberton"
+
+msgid "Hello world!"
+msgstr "Bonjour monde!"
+
+msgid "You are logged in as %(username)s."
+msgstr "Vous êtes connecté en tant que %(username)s."
+
+msgid "You are not logged in."
+msgstr "Vous n'êtes pas connecté."
