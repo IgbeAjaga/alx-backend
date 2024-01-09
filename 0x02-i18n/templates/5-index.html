@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>5-index</title>
+</head>
+
+<body>
+    {% if user %}
+    <p>
+    {{ _("You are logged in as %(username)s.")|format(username=user.name) }}
+    </p>
+    {% else %}
+    <p>{{ _("You are not logged in.") }}</p>
+    {% endif %}
+</body>
+
+</html>
