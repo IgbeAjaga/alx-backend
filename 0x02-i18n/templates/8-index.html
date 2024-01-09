@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Current Time</title>
+</head>
+<body>
+    {% if username %}
+        <p>{{ _('logged_in_as') %} {{ username }}</p>
+    {% else %}
+        <p>{{ _('not_logged_in') }}</p>
+    {% endif %}
+    <p>{{ _('current_time_is', current_time=current_time) }}</p>
+</body>
+</html>
